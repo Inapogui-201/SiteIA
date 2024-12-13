@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uliza 3.0 - Plans et Tarification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 to-black min-h-screen text-white"
+  >
+    <!-- Navigation -->
+    <nav class="bg-black/30 backdrop-blur-lg border-b border-white/10 p-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <a
+          href="/"
+          class="text-white font-bold hover:text-sky-400 transition-colors"
+          >Uliza 3.0</a
+        >
+        <div class="flex items-center space-x-4">
+          <a
+            href="/"
+            class="text-sm text-white hover:text-sky-400 transition-colors"
+          >
+            <i class="fas fa-home"></i>
+          </a>
+          <button class="text-white hover:text-sky-400 transition-colors">
+            <i class="fas fa-user"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-16">
+      <!-- Header -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold mb-4">Passer au plan supérieur</h1>
+        <p class="text-gray-400">
+          Choisissez le plan qui correspond le mieux à vos besoins
+        </p>
+      </div>
+
+      <!-- Toggle -->
+      <div class="flex justify-center mb-12">
+        <div class="inline-flex rounded-lg backdrop-blur-lg bg-white/10 p-1">
+          <a href="./tarif.html">
+            <button class="px-4 py-2 rounded-lg text-white/70 hover:text-white">
+              Particuliers
+            </button></a
+          >
+          <button class="px-4 py-2 rounded-lg bg-sky-400 text-white">
+            Entreprises
+          </button>
+        </div>
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="max-w-2xl mx-auto">
+        <!-- Team Plan -->
+        <div
+          class="rounded-xl backdrop-blur-lg bg-white/10 p-8 border border-white/10 relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 right-0 bg-sky-400 text-white px-4 py-1 rounded-bl-lg"
+          >
+            Recommandé
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Équipe</h2>
+          <div class="flex items-baseline mb-8">
+            <span class="text-5xl font-bold">25</span>
+            <span class="text-xl ml-2">Dollars américains/mois</span>
+          </div>
+          <p class="text-gray-300 mb-8">
+            Optimisez la productivité de votre équipe avec un espace de travail
+            collaboratif et sécurisé
+          </p>
+          <button
+            class="w-full py-3 rounded-lg bg-sky-400 text-white font-medium mb-8 hover:bg-sky-500 transition-colors"
+          >
+            Passer à l'équipe
+          </button>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Toutes les fonctionnalités de Uliza Plus</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span
+                >Accès illimité à Uliza mini et limites de messages étendus sur
+                Uliza-4, Uliza-4o, et des outils comme DALL-E, la navigation sur
+                le Web, les analyses de données, et plus encore</span
+              >
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span
+                >Créer et partager des GPT avec votre espace de travail</span
+              >
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span
+                >Console administrateur pour la gestion de l'espace de
+                travail</span
+              >
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Données Team exclues de l'entraînement par défaut</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

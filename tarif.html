@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uliza 3.0 - Plans et Tarification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 to-black min-h-screen text-white"
+  >
+    <!-- Navigation -->
+    <nav class="bg-black/30 backdrop-blur-lg border-b border-white/10 p-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <a
+          href="/"
+          class="text-white font-bold hover:text-sky-400 transition-colors"
+          >Uliza 3.0</a
+        >
+        <div class="flex items-center space-x-4">
+          <a
+            href="/"
+            class="text-sm text-white hover:text-sky-400 transition-colors"
+          >
+            <i class="fas fa-home"></i>
+          </a>
+          <button class="text-white hover:text-sky-400 transition-colors">
+            <i class="fas fa-user"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-16">
+      <!-- Header -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold mb-4">Passer au plan supérieur</h1>
+        <p class="text-gray-400">
+          Choisissez le plan qui correspond le mieux à vos besoins
+        </p>
+      </div>
+
+      <!-- Toggle -->
+      <div class="flex justify-center mb-12">
+        <div class="inline-flex rounded-lg backdrop-blur-lg bg-white/10 p-1">
+          <button class="px-4 py-2 rounded-lg bg-sky-400 text-white">
+            Particuliers
+          </button>
+          <a href="./tarifE.html"
+            ><button
+              class="px-4 py-2 rounded-lg text-white/70 hover:text-white"
+            >
+              Entreprises
+            </button></a
+          >
+        </div>
+      </div>
+
+      <!-- Pricing Cards -->
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <!-- Free Plan -->
+        <div
+          class="rounded-xl backdrop-blur-lg bg-white/10 p-8 border border-white/10"
+        >
+          <h2 class="text-2xl font-bold mb-4">Gratuit</h2>
+          <div class="flex items-baseline mb-8">
+            <span class="text-5xl font-bold">0</span>
+            <span class="text-xl ml-2">Dollars américains/mois</span>
+          </div>
+          <p class="text-gray-300 mb-8">
+            Découvrez comment l'IA peut vous aider dans vos tâches quotidiennes
+          </p>
+          <button
+            class="w-full py-3 rounded-lg bg-white/10 text-white font-medium mb-8"
+          >
+            Votre plan actuel
+          </button>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span
+                >Assistance à la rédaction et résolution de problèmes en langues
+                africaines</span
+              >
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Accès à Uliza Basic</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Traitement limité des images et documents</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Premium Plan -->
+        <div
+          class="rounded-xl backdrop-blur-lg bg-white/10 p-8 border border-white/10 relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 right-0 bg-sky-400 text-white px-4 py-1 rounded-bl-lg"
+          >
+            Recommandé
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Uliza Plus</h2>
+          <div class="flex items-baseline mb-8">
+            <span class="text-5xl font-bold">20</span>
+            <span class="text-xl ml-2">Dollars américains/mois</span>
+          </div>
+          <p class="text-gray-300 mb-8">
+            Gagnez en productivité avec un accès étendu
+          </p>
+          <button
+            class="w-full py-3 rounded-lg bg-sky-400 text-white font-medium mb-8 hover:bg-sky-500 transition-colors"
+          >
+            Passer à Uliza Plus
+          </button>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Toutes les fonctionnalités de l'offre gratuite</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Accès en exclusivité aux nouvelles fonctionnalités</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Accès à Uliza Pro et Uliza Advanced</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Traitement illimité des images et documents</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-sky-400 mt-1 mr-3"></i>
+              <span>Support prioritaire en plusieurs langues africaines</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
